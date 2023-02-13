@@ -1,5 +1,13 @@
 //Web Scraping and Automated email project using NodeMailer and Cheerio
 //done around September 2022
+
+
+//to use, clone this repo into a destination. In git bash, cd into the directory, and run the following command:
+// node artists.js  artistNamesHere
+
+//for example: node artists.js Jay-Z Eminem "Snoop Dogg"
+
+//you have to configure a app-friendly gmail account and set up the relevant sender_email and sender_password in credentials.json 
 var cheerio = require('cheerio');
 const { json } = require('express');
 var request = require('request');
